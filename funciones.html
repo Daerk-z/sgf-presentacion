@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Funciones | SGF – Sistema de Gestión de Farmacia</title>
+  <meta name="description" content="Módulos de SGF: inventario y lotes, proveedores, ventas, devoluciones, cierre del día y usuarios.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/menu.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">SGF <span>Sistema de Gestión de Farmacia</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
+        <span aria-hidden="true">☰</span> Menú
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="funciones.html" aria-current="page">Funciones</a></li>
+          <li><a href="capturas.html">Capturas</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <div class="container">
+      <section class="section" aria-labelledby="titulo-funciones">
+        <h1 id="titulo-funciones">Funciones</h1>
+        <p class="lead">SGF está organizado en módulos que cubren el trabajo diario de la farmacia.</p>
+      </section>
+
+      <section class="section" aria-label="Módulos del sistema">
+        <ul class="card-grid">
+          <li class="card">
+            <h2 class="h3">Inventario y lotes</h2>
+            <ul>
+              <li>Registro de productos con sus lotes y fechas de vencimiento.</li>
+              <li>Alertas de los lotes próximos a vencer o ya vencidos.</li>
+              <li>Consulta de existencias por producto y por lote.</li>
+            </ul>
+          </li>
+          <li class="card">
+            <h2 class="h3">Proveedores y reposición</h2>
+            <ul>
+              <li>Registro de proveedores y de los productos que suministran.</li>
+              <li>Identificación de productos con existencias bajas para reponer.</li>
+              <li>Ingreso de nuevos lotes al inventario.</li>
+            </ul>
+          </li>
+          <li class="card">
+            <h2 class="h3">Ventas</h2>
+            <ul>
+              <li>Registro de ventas con precios que ya incluyen el IVA.</li>
+              <li>Cálculo automático de la comisión del vendedor.</li>
+              <li>Descuento automático de las unidades vendidas del inventario.</li>
+            </ul>
+          </li>
+          <li class="card">
+            <h2 class="h3">Devoluciones</h2>
+            <ul>
+              <li>Registro de devoluciones asociadas a una venta.</li>
+              <li>Reintegro de las unidades al inventario cuando corresponde.</li>
+              <li>Ajuste de los totales del día.</li>
+            </ul>
+          </li>
+          <li class="card">
+            <h2 class="h3">Cierre del día y Excel</h2>
+            <ul>
+              <li>Resumen diario de ventas, devoluciones y comisiones.</li>
+              <li>Exportación del cierre a un archivo de Excel.</li>
+            </ul>
+          </li>
+          <li class="card">
+            <h2 class="h3">Usuarios y roles</h2>
+            <ul>
+              <li><strong>ADMIN:</strong> acceso completo, incluida la gestión de usuarios y reportes.</li>
+              <li><strong>FARMACEUTA:</strong> ventas, devoluciones y consulta de inventario.</li>
+              <li>Inicio de sesión con usuario y contraseña propios.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>SGF – Proyecto formativo SENA · ADSO · 2026</p>
+    </div>
+  </footer>
+</body>
+</html>

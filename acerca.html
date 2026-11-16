@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acerca de | SGF – Sistema de Gestión de Farmacia</title>
+  <meta name="description" content="SGF es un proyecto formativo del programa ADSO del SENA. Tecnologías utilizadas y forma de instalación.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/menu.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">SGF <span>Sistema de Gestión de Farmacia</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
+        <span aria-hidden="true">☰</span> Menú
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="funciones.html">Funciones</a></li>
+          <li><a href="capturas.html">Capturas</a></li>
+          <li><a href="acerca.html" aria-current="page">Acerca de</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <div class="container">
+      <section class="section" aria-labelledby="titulo-acerca">
+        <h1 id="titulo-acerca">Acerca del proyecto</h1>
+        <p class="lead">SGF es un proyecto formativo desarrollado en el programa Análisis y Desarrollo de Software (ADSO) del SENA.</p>
+        <p>El proyecto aplica las fases del ciclo de vida del software (análisis, diseño, desarrollo, pruebas e implantación) a una necesidad real: la gestión diaria de una farmacia.</p>
+      </section>
+
+      <section class="section" aria-labelledby="tecnologias">
+        <h2 id="tecnologias">Tecnologías</h2>
+        <ul class="tech-list">
+          <li><strong>Java 21</strong><br>Lenguaje del servidor de la aplicación.</li>
+          <li><strong>Spring Boot</strong><br>Framework para construir la API y la lógica de negocio.</li>
+          <li><strong>SQLite</strong><br>Base de datos local en un solo archivo, sin servidor aparte.</li>
+          <li><strong>React</strong><br>Biblioteca para construir la interfaz de usuario.</li>
+          <li><strong>Vite</strong><br>Herramienta de desarrollo y empaquetado del frontend.</li>
+          <li><strong>TypeScript</strong><br>JavaScript con tipos para un frontend más confiable.</li>
+        </ul>
+      </section>
+
+      <section class="section notice" aria-labelledby="instalacion">
+        <h2 id="instalacion">Instalación local</h2>
+        <p>El software real se instala localmente en el equipo de la farmacia y <strong>no se publica en internet</strong>. Este sitio solo presenta el proyecto con fines académicos.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>SGF – Proyecto formativo SENA · ADSO · 2026</p>
+    </div>
+  </footer>
+</body>
+</html>

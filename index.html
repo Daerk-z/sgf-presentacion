@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio | SGF – Sistema de Gestión de Farmacia</title>
+  <meta name="description" content="SGF es un sistema para gestionar el inventario, las ventas y el cierre diario de una farmacia. Proyecto formativo SENA ADSO.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/menu.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">SGF <span>Sistema de Gestión de Farmacia</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
+        <span aria-hidden="true">☰</span> Menú
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html" aria-current="page">Inicio</a></li>
+          <li><a href="funciones.html">Funciones</a></li>
+          <li><a href="capturas.html">Capturas</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" aria-labelledby="titulo-inicio">
+      <div class="container">
+        <h1 id="titulo-inicio">SGF – Sistema de Gestión de Farmacia</h1>
+        <p class="lead">Control de inventario, ventas y cierre del día en un solo lugar, pensado para el trabajo diario detrás del mostrador.</p>
+        <div class="button-group">
+          <a class="button" href="funciones.html">Ver funciones</a>
+          <a class="button button-outline" href="capturas.html">Ver capturas</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="section" aria-labelledby="que-es">
+        <h2 id="que-es">¿Qué es SGF?</h2>
+        <p>SGF es una aplicación que se instala localmente para administrar una farmacia: registra los productos y sus lotes, avisa cuáles están próximos a vencer, gestiona las ventas y las devoluciones y genera el cierre del día.</p>
+        <p>Su objetivo es reemplazar las hojas de cálculo y los cuadernos por un sistema ordenado, fácil de usar y que funciona sin depender de internet.</p>
+      </section>
+
+      <section class="section" aria-labelledby="para-quien">
+        <h2 id="para-quien">¿Para quién es?</h2>
+        <ul class="card-grid">
+          <li class="card">
+            <h3>Administrador (ADMIN)</h3>
+            <p>El dueño o encargado de la farmacia: gestiona productos, proveedores, usuarios, revisa los cierres y exporta reportes.</p>
+          </li>
+          <li class="card">
+            <h3>Farmaceuta (FARMACEUTA)</h3>
+            <p>El personal de mostrador: registra ventas y devoluciones y consulta el inventario disponible.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" aria-labelledby="beneficios">
+        <h2 id="beneficios">Beneficios principales</h2>
+        <ul class="card-grid">
+          <li class="card">
+            <h3>Control de vencimientos</h3>
+            <p>Alertas de los lotes próximos a vencer para evitar pérdidas y vender primero lo que vence antes.</p>
+          </li>
+          <li class="card">
+            <h3>Ventas ágiles</h3>
+            <p>Registro rápido de ventas con el IVA ya incluido en el precio y cálculo de la comisión del vendedor.</p>
+          </li>
+          <li class="card">
+            <h3>Cierre diario claro</h3>
+            <p>Resumen del día listo para revisar y exportar a Excel.</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>SGF – Proyecto formativo SENA · ADSO · 2026</p>
+    </div>
+  </footer>
+</body>
+</html>
